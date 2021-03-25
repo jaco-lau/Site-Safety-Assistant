@@ -1,3 +1,5 @@
+<h3> Project Case Study was featured by RoboFlow, a computer vision and object detection company.  https://blog.roboflow.com/computer-vision-detect-ppe-personal-protective-equipment/</h3>
+<hr>
 <h1>Site Safety Assistant App:</h1>
 <h3>Safety Violation Detector using Object Detection Neural Networks on images</h3>
 <hr>
