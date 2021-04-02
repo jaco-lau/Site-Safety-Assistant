@@ -7,10 +7,8 @@ from pathlib import Path
 
 from PIL import Image
 
-import tensorflow as tf 
-
-# tensorflow.keras.models import load_model
-# from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import img_to_array
 
 # Function to read in import markdown file
 def read_markdown_file(markdown_file):
