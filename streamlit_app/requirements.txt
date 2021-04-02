@@ -1,8 +1,5 @@
-numpy==1.19.4
-streamlit==0.75.0
-scikit_learn==0.24.1
 tensorflow==2.4.0
+numpy==1.19.4
+streamlit==0.73.1
 pandas==1.1.4
-PIL==7.2.0
-pathlib
-base64
+Pillow==8.2.0
