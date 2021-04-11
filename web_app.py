@@ -15,21 +15,21 @@ def read_markdown_file(markdown_file):
     return Path(markdown_file).read_text()
 
 # Import safety violation reports
-carp1_markdown = read_markdown_file('carpentry_safety_violation_report_1.md')
-carp2_markdown = read_markdown_file('carpentry_safety_violation_report_2.md')
-carp3_markdown = read_markdown_file('carpentry_safety_violation_report_3.md')
+carp1_markdown = read_markdown_file('./streamlit_app/carpentry_safety_violation_report_1.md')
+carp2_markdown = read_markdown_file('./streamlit_app/carpentry_safety_violation_report_2.md')
+carp3_markdown = read_markdown_file('./streamlit_app/carpentry_safety_violation_report_3.md')
 
-elec1_markdown = read_markdown_file('electric_safety_violation_report_1.md')
-elec2_markdown = read_markdown_file('electric_safety_violation_report_2.md')
-elec3_markdown = read_markdown_file('electric_safety_violation_report_3.md')
+elec1_markdown = read_markdown_file('./streamlit_app/electric_safety_violation_report_1.md')
+elec2_markdown = read_markdown_file('./streamlit_app/electric_safety_violation_report_2.md')
+elec3_markdown = read_markdown_file('./streamlit_app/electric_safety_violation_report_3.md')
 
-hvac1_markdown = read_markdown_file('hvac_safety_violation_report_1.md')
-hvac2_markdown = read_markdown_file('hvac_safety_violation_report_2.md')
-hvac3_markdown = read_markdown_file('hvac_safety_violation_report_3.md')
+hvac1_markdown = read_markdown_file('./streamlit_app/hvac_safety_violation_report_1.md')
+hvac2_markdown = read_markdown_file('./streamlit_app/hvac_safety_violation_report_2.md')
+hvac3_markdown = read_markdown_file('./streamlit_app/hvac_safety_violation_report_3.md')
 
-plumb1_markdown = read_markdown_file('plumbing_safety_violation_report_1.md')
-plumb2_markdown = read_markdown_file('plumbing_safety_violation_report_2.md')
-plumb3_markdown = read_markdown_file('plumbing_safety_violation_report_3.md')
+plumb1_markdown = read_markdown_file('./streamlit_app/plumbing_safety_violation_report_1.md')
+plumb2_markdown = read_markdown_file('./streamlit_app/plumbing_safety_violation_report_2.md')
+plumb3_markdown = read_markdown_file('./streamlit_app/plumbing_safety_violation_report_3.md')
 
 # Specify trades
 trades = ['Select Trade','Carpentry','Electric','Mechanical/HVAC','Plumbing']
@@ -54,7 +54,7 @@ if fileUpload:
     #Run model if image confirmed
     if result:
         # Load model
-        model = load_model('./models/site_safety/')
+        model = load_model('./streamlit_app/models/site_safety/')
         # Convert image to array
         array = img_to_array(resized)
         # Reshape image so that the model can use it
