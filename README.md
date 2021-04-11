@@ -3,6 +3,8 @@
 <h1>Site Safety Assistant App:</h1>
 <h3>Safety Violation Detector using Object Detection Neural Networks on images</h3>
 <hr>
+<h3>Application Link:</h3>
+https://share.streamlit.io/jaco-lau/site-safety-assistant/main/web_app.py
 <h2> Problem Statement</h2>
 
 While safety is one of the most important parts of construction, a project can't be successful if it doesn't get built.  The superintendents, who are the General Contractor's on site representitives and who's primary goal is to ensure a project is to ensure a project is built to plan and on schedule.  Unfortunately, this can be difficult to achieve if they are constantly bogged down doing tedious paperwork.  Site Safety Assistant is a prototype that will give General Contractors the ability to quickly identify safety violations, as well as free up time for the superintendent to do their job by automatically filling out the necessary paperwork that goes along with any safety violations picked up by the App.
